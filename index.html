@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>Черга</title>
+		<link rel="stylesheet" type="text/css" href="styles/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;700&family=Open+Sans:ital,wght@0,600;0,700;0,800;1,600;1,700;1,800&display=swap" rel="stylesheet"> 
+		
+		<link rel="shortcut icon" href="#" />
+	</head>
+	<body>
+		<div class="form-background">
+			<div class="form">
+				<h1>Стань у чергу на отримання<br>лімітованої марки</h1>
+				<hr>
+				<form>
+					<div class="form-input-block">
+						<input class="form-single-input" type="text" name="user_name" placeholder="Ім´я" required>
+						<input class="form-single-input" type="text" name="user_phone" placeholder="Мобільний телефон" required>
+						<input class="form-single-input" type="text" name="user_email" placeholder="Електронна пошта">
+					</div>
+					<input id="disabled" class="form-button" type="submit" value="Відправити">
+					<p class="form-notification"> На жаль, зараз неможливо залишити заявку :( </p>
+				</form>
+			</div>
+		</div>
+		<div class = "requests-body">
+			<h1>Список нових заявок</h1>
+            <table>
+              <tr>
+                <th>Номер</th>
+                <th>Ім´я користувача</th>
+                <th>Статус</th>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>Лев</td>
+                <td>Розглядання</td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>Юліан</td>
+                <td>Розглядання</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Охрім</td>
+                <td>Відмовлено</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Антон</td>
+                <td>Підтверджено</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Тарас</td>
+                <td>Підтверджено</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Сергій</td>
+                <td>Підтверджено</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Кирило</td>
+                <td>Відмовлено</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Олексій</td>
+                <td>Підтверджено</td>
+              </tr>
+            </table>
+		</div>
+		<div class="footer">
+			<p>&#169; 2022 Всі права захищені. Биваліна Наталія спеціально для EPAM Systems</p>
+		</div>
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
+</html>

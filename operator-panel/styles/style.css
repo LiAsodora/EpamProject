@@ -1,0 +1,98 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.requests-body {
+	width: 100%;
+	height: 1000px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.table {
+	color: #6f6f6f;
+	font-size: 26px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.table table {
+	margin-top: 20px;
+	width: 1000px;
+	border-spacing: 20px;
+	text-align: center;
+	border-radius: 15px;
+	border: 5px solid #ffdc00;
+	border-spacing: 50px 20px;
+}
+
+.table table tr {
+	
+}
+
+.table table th {
+	padding: 10px 20px 10px 20px;
+
+	background-color: #ffdc00;
+	border-radius: 15px;
+}
+
+.table table td {
+	padding: 10px 20px 10px 20px;
+	border-radius: 15px;
+	border: 2px solid #ffdc00;
+}
+
+.buttons {
+	width: 100%;
+	margin-top: 50px;
+
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.buttons button {
+	width: 300px;
+	height: 80px;
+	border-radius: 15px;
+	color: #6f6f6f;
+	font-size: 26px;
+	border: none;
+	cursor: pointer;
+}
+
+.approve-button {
+	background-color: #a2ffa2;
+}
+
+.approve-button:hover {
+	background-color: #5eff63;
+}
+
+.reject-button {
+	background-color: #ffa2a2;
+}
+
+.reject-button:hover {
+	background-color: #ff5e5e;
+}
+
+.footer {
+	width: 100%;
+	height: 80px;
+	background-color: #d1d1d1;
+	font-size: 14px;
+	color: #6f6f6f;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

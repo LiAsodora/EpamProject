@@ -3,5 +3,5 @@ function showInDevelopingAlert() {
 }
 
 function openHomePage() {
-	window.location.href = "../";
+	window.location.href = "../index.php";
 }
